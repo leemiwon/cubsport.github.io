@@ -6,7 +6,7 @@ font-weight: 300;
 font-style: normal;
 font-stretch: ultra-expanded;
 color: #ff9d9d;
-font-size: 12px;}
+font-size: 20px;}
 
 a{text-decoration: none;}
 a:link{}
@@ -24,11 +24,12 @@ a:link{}
   .pin1 {display: block; float: left; left: 0%; position: absolute;}
   .pin2 {display: block; right:0%; position: absolute;}
   .content2 {margin: 0 auto; padding-top: 100px;}
-  .content2 img{max-width: 40%; height: auto;
+  .content2 img{max-width: 38%; height: auto;
         padding-top: 50px;
         display: block;
         margin: 0 auto;
       }
+      .content2 a img{max-width: 20%;}
   .content3 {grid-template-columns: 1fr 1fr; text-align: center;padding-top:60px; }
   .content3 img{max-width: 40%; margin: 0 auto; padding: 30px;}
 
@@ -45,6 +46,8 @@ a:link{}
   {
   .content2 img{max-width:60%; height: auto; padding: 10px;}
   .content3 img{max-width: 80%;padding: 10px;margin: 0 auto; display: block;}
+  .follow3 img{width: 300px;}
+  .content2 a img{max-width: 40%;}
   }
 
 
