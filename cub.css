@@ -8,6 +8,9 @@ font-stretch: ultra-expanded;
 color: #ff9d9d;
 font-size: 12px;}
 
+a{text-decoration: none;}
+a:link{}
+  a:hover h2{text-shadow: 3px 3px 4px #ff9d9d;}
 
   .content{margin:30px; width:auto; height: auto;
     text-align: center;
@@ -28,8 +31,58 @@ font-size: 12px;}
       }
   .content3 {grid-template-columns: 1fr 1fr; text-align: center;padding-top:60px; }
   .content3 img{max-width: 40%; margin: 0 auto; padding: 30px;}
-@media screen and (max-width: 800px)
+
+  .follow3 img{/*메일투팔로우*/
+    position:fixed;
+    width: 200px;
+    z-index: 7;
+    float:left;
+    left:5%; bottom:5%;
+    }
+
+
+@media screen and (max-width: 1070px)
   {
-  .content2 img{max-width:auto; height: auto; padding: 10px;}
+  .content2 img{max-width:60%; height: auto; padding: 10px;}
   .content3 img{max-width: 80%;padding: 10px;margin: 0 auto; display: block;}
   }
+
+
+
+  /*vvvv스크롤바vvvv*/
+  ::-webkit-scrollbar {
+      width: 6px;  /* 세로축 스크롤바 길이 */
+      height: 5px;  /* 가로축 스크롤바 길이 */
+    }
+    ::-webkit-scrollbar-track {
+      background-color:#ffffff00;
+    }
+    ::-webkit-scrollbar-track-piece {
+      background-color:#ffffff00;/*여백*/
+    }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 8px;/*스크롤바*/
+      background-color:#ff9d9d;
+      /*box-shadow: 0px 3px 3px #ffffff;*/
+    }
+    ::-webkit-scrollbar-button {
+      background-color:#ffffff00;
+      width: 20px;
+      height: 10px;
+    }
+    ::-webkit-scrollbar-button:start {
+      background-color:#ffffff00; /* Top, Left 방향의 이동버튼 */
+    }
+    ::-webkit-scrollbar-button:end {
+      background-color:#ffffff00; /* Bottom, Right 방향의 이동버튼 */
+    }
+    ::-webkit-scrollbar-button:vertical:increment {
+    }
+    ::-webkit-scrollbar-button:vertical:decrement {
+    }
+    ::-webkit-scrollbar-corner {
+      background-color: none; /* 우측 하단의 코너 부분 */
+    }
+    ::-webkit-resizer {
+      background-color: green;
+    }
