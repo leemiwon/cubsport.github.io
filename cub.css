@@ -30,6 +30,7 @@ a:link{}
         margin: 0 auto;
       }
       .content2 a img{max-width: 20%;}
+      .content2 .ticket img{max-width: 60%;padding: 30px;}
   .content3 {grid-template-columns: 1fr 1fr; text-align: center;padding-top:60px; }
   .content3 img{max-width: 40%; margin: 0 auto; padding: 30px;}
 
